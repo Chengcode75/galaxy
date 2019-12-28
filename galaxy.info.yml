@@ -1,0 +1,14 @@
+name: Galaxy
+description: Galaxy is my first drupal theme
+type: theme
+version: VERSION
+core: 8.x
+package: Custom
+libraries:
+  - galaxy/styling
+regions:
+  header: Header
+  menu: Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

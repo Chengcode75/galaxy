@@ -1,0 +1,106 @@
+ul, ol{
+  list-style-type: none;
+}
+
+body{
+  margin: 0;
+  font-family: 'Arial';
+  overflow-x:scroll;
+
+}
+header{
+position: relative;
+background-image: url(../images/galaxy.jpeg);
+text-align: left;
+}
+main{
+position: relative;
+background-image: url(../images/galaxy.jpeg);
+margin: auto;
+}
+.welmsg{
+  position: relative;
+  background-image: url(../images/galaxy.jpeg);
+  color: #fed8b1;
+  font-size: 40px;
+  width: 80%;
+  border: 8px solid black;
+  box-sizing: border-box;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.content{
+  position: relative;
+  background-image: url(../images/galaxy.jpeg);
+  color: #fed8b1;
+  border: 7px solid black;
+  border-radius: 9px;
+  font-style: italic;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  border: 5px solid #000000;
+  background-color:#002651;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+}
+.menu{
+  background-color:#002651;
+  height: 100px;
+  color: black;
+  text-align: center;
+}
+#block-galaxy-account-menu ul{
+  z-index: 1;
+  width: 80%;
+  display: inline-block;
+
+}
+
+#block-galaxy-account-menu ul li{
+  padding: 10px;
+  width:10%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 17px;
+  text-decoration: none;
+  color: #ff0000;
+  background-color: #FFA07A;
+  border: 1px solid #E6DADA;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+#block-galaxy-main-menu ul{
+  z-index: 1;
+  width: 80%;
+  display: inline-block;
+
+}
+
+#block-galaxy-main-menu ul li{
+  padding: 10px;
+  width:10%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 17px;
+  text-decoration: none;
+  color: #000;
+  background-color: #FFA07A;
+  border: 1px solid #E6DADA;
+  border-radius: 10px;
+  cursor: pointer;
+}
